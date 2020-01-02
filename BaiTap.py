@@ -62,4 +62,9 @@ for p in danhSachSanPham:
     cursor.execute(s)
 
     conn.commit(); # Chay lenh nay de thuc hien thay doi
-
+"""
+def create(conn):
+    print("Create")
+    cursor = conn.cursor()
+    cursor.execute("insert into product")
+"""
