@@ -12,7 +12,7 @@ except ImportError:
 import pandas as pd
 
 # --- classes ---
-
+# Add new comment
 class MyWindow:
 
     def __init__(self, parent):

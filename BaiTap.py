@@ -21,6 +21,8 @@ new_data1 = list(filter(None, new_data))
 
 danhSachSanPham = []
 
+# Add new comment
+
 for i in range(len(new_data1)):
     listAttribute = new_data1[i].split('\n')
     listAttribute = list(filter(None, listAttribute))
